@@ -20,6 +20,7 @@ G‑SIM automates the following:
 
 * Provisioning a GCP Compute Engine virtual machine
 * Automatic firewall rule creation for phishing and admin access
+* ![G-SIM Firewall Creation](firewall.png)
 * Docker installation and configuration
 * Deployment of Gophish as a Docker container
 * Automatic detection of the public external IP address
@@ -73,6 +74,7 @@ Before running G‑SIM, ensure the following:
 ---
 
 ## Region and Zone Selection
+![G-SIM Region Selection](region.png)
 
 G‑SIM supports both **default deployment locations** and **custom region and zone selection**.
 
@@ -100,6 +102,7 @@ The script handles the full deployment automatically.
 ---
 
 ## Deployment Output
+![G-SIM Complete Deployment](CompleteDeployment.png)
 
 Upon successful execution, G‑SIM generates a file named:
 
@@ -170,6 +173,7 @@ Planned enhancements include:
 
 
 ## Destroying the G‑SIM Deployment
+
 
 G‑SIM includes a destroy script to safely remove all resources created during deployment.
 This ensures clean teardown and avoids unnecessary cloud cost.
