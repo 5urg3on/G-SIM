@@ -139,6 +139,10 @@ These defaults are selected for cost efficiency, simplicity, and operational rel
 
 ---
 
+## Access
+* *visit the external IP address in the gsimAccess.txt file with the port 3333*
+* https://<External-IP>:3333
+
 ## Security and Compliance Considerations
 
 * **Authorized Use Only:** G‑SIM is intended exclusively for authorized phishing simulations.
