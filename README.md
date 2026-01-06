@@ -217,7 +217,7 @@ Use the destroy script:
 ## Author
 For updates on security tooling, automation, offsec and cloud security:
 
-LinkedIn: https://www.linkedin.com/in/5urg3on  https://www.linkedin.com/in/sylvesterbaruch
+LinkedIn: https://www.linkedin.com/in/sylvesterbaruch
 X (Twitter): https://x.com/coo119578151920
 
 
