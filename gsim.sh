@@ -72,7 +72,11 @@ EXTERNAL_IP=$(gcloud compute instances describe $VM_NAME \
   --zone=$ZONE \
   --format='get(networkInterfaces[0].accessConfigs[0].natIP)')
 
-ADMIN_LOG=$(gcloud compute ssh $VM_NAME --zone=$ZONE --command="sudo docker logs gophish 2>/dev/null | grep -i admin")
+ADMIN_USER="admin"
+ADMIN_PASS=$(gcloud compute ssh $VM_NAME --zone=$ZONE --command="
+sudo docker exec gophish grep admin_password /opt/gophish/config.json | cut -d ':' -f2 | tr -d ' \",'
+")
+
 
 echo ""
 echo "Saving access details..."
