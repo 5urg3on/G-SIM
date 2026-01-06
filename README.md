@@ -111,8 +111,6 @@ This file contains:
 
 * External public IP address
 * Gophish admin interface URL with port
-* Admin username
-* Admin password
 * Phishing landing page URL
 * Deployment timestamp
 * Authorized use notice
@@ -121,9 +119,14 @@ The same information is displayed in the terminal for immediate access.
 
 ---
 
+### Check Gophish Admin login passwird
+```bash
+docker logs gophish
+```
+
 ## Default Configuration
 
-* **VM Name:** `gophish-server`
+* **VM Name:** `gophish-servers`
 * **Machine Type:** `e2-micro`
 * **Exposed Ports:**
 
@@ -148,7 +151,7 @@ I will not be responsible for misuse of this tool as it is intended for security
 
 ## License
 
-This project is released under an open source license.
+This tool is released under an open source license.
 ---
 
 ## Roadmap
@@ -164,6 +167,14 @@ Planned enhancements include:
 ---
 
 ### Final Notes
+
+
+## Author
+For updates on security tooling, automation, offsec and cloud security:
+
+LinkedIn: https://www.linkedin.com/in/5urg3on  https://www.linkedin.com/in/sylvesterbaruch
+X (Twitter): https://x.com/coo119578151920
+
 
 G‑SIM is designed to be simple, transparent, and reliable.
 Every action performed by the script is visible and auditable, ensuring confidence in both security operations and compliance.
