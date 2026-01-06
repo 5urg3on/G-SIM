@@ -7,7 +7,7 @@ echo "G-SIM | Gophish Simulation Deployment"
 echo "======================================="
 
 PROJECT_ID=$(gcloud config get-value project)
-VM_NAME="gophish-server"
+VM_NAME="gophish-servers"
 MACHINE_TYPE="e2-micro"
 IMAGE_FAMILY="debian-12"
 IMAGE_PROJECT="debian-cloud"
